@@ -1,4 +1,4 @@
- # 🦁 Compilador [Nombre de tu Lenguaje/Equipo]
+ # 🦁 Compilador Equipo 4
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![GUI](https://img.shields.io/badge/Interface-Tkinter-green)
