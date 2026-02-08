@@ -1,0 +1,14 @@
+# .gitignore para Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de sistema y VS Code
+.vscode/
+.DS_Store
+*.log
