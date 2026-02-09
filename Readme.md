@@ -71,7 +71,7 @@ Clonar el repositorio:
 
 Bash
 git clone [https://github.com/](https://github.com/)[TU_USUARIO]/Compilador-Equipo7-2026.git
-cd Compilador-Equipo7-2026
+cd Compilador-Equipo4-2026
 Ejecutar la aplicación: Asegúrate de tener Python instalado. Desde la raíz del proyecto ejecuta:
 
 Bash
