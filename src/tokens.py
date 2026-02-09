@@ -1,14 +1,4 @@
-"""
-src/tokens.py
----------------------------------------------------
-Definición de patrones (Expresiones Regulares) para los Tokens.
-Este módulo contiene la 'Materia Prima' del Analizador Léxico.
-
-AUTOR: Equipo 7 - Compiladores 2026
-"""
-
 # Lista de tuplas (NOMBRE_TOKEN, REGEX)
-# ¡ADVERTENCIA DE PROFESOR!: El orden de esta lista es CRÍTICO.
 # Los patrones más específicos (como '==') deben ir antes que los generales (como '=').
 # Las Palabras Reservadas deben ir antes que los Identificadores.
 

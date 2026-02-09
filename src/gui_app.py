@@ -1,12 +1,3 @@
-"""
-src/gui_app.py
----------------------------------------------------
-Interfaz Gráfica de Usuario (GUI) basada en Tkinter.
-Actúa como el 'Frontend' que conecta al usuario con el Analizador Léxico.
-
-AUTOR: Equipo 7 - Compiladores 2026
-"""
-
 import tkinter as tk
 from tkinter import ttk, scrolledtext, filedialog, messagebox
 from lexer import AnalizadorLexico  # Importamos tu motor lógico
