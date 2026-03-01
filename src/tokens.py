@@ -49,8 +49,8 @@ TOKEN_REGEX = [
     ('ID',          r'[a-zA-Z_][a-zA-Z0-9_]*'),
 
     # --- 6. Ignorables y Errores ---
-    ('COMENTARIO',  r'//.*'),       # Comentarios de una línea (tipo C/Java)
-    ('SALTO_LINEA', r'\n'),         # Para contar líneas
+('COMENTARIO_MULTI', r'/\*[\s\S]*?\*/'),
+('SALTO_LINEA', r'\n'),         # Para contar líneas
     ('ESPACIO',     r'[ \t]+'),     # Espacios y tabuladores (se ignoran)
     ('ERROR',       r'.'),          # CUALQUIER otra cosa es un error
 ]

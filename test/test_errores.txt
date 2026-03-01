@@ -1,0 +1,12 @@
+// Programa con errores lexicos intencionales
+void principal() {
+    entero $costo = 1500; 
+    flotante @descuento = 0.15;
+    
+    si (costo > 1000) {
+        costo = costo * ?; 
+    }
+    
+    mensaje = "Calculo terminado" # Fin del programa
+    ~
+}

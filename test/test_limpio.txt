@@ -1,0 +1,16 @@
+// Programa de prueba - Beca de Estudiantes
+void principal() {
+    entero edad = 21;
+    flotante ingreso = 4500.50;
+    flotante promedio = 95.0;
+    
+    mientras (edad >= 18 && edad <= 25) {
+        si (ingreso < 5000.0 || promedio == 100.0) {
+            // El alumno cumple las condiciones
+            mensaje_aprobado = "Beca Aprobada Exitosamente";
+            retornar;
+        } sino {
+            ingreso = ingreso - 100.0;
+        }
+    }
+}
